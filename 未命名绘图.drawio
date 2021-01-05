@@ -1,1 +1,55 @@
-<mxfile host="app.diagrams.net" modified="2021-01-04T14:03:59.013Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" version="14.1.8" etag="qk1xgQ_z7Bniv5iJpS8m" type="github"><diagram id="uG6ViaOnhtzbE80_AyhN">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-05T03:53:39.567Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="WIclfhKz5JRWgUbNpvlN" version="14.1.8" type="github">
+  <diagram id="uG6ViaOnhtzbE80_AyhN" name="第 1 页">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="iiY4uOLvqKeHa0GbTUQp-50" value="全局变量对象" style="swimlane;startSize=50;" vertex="1" parent="1">
+          <mxGeometry x="540" y="140" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="iiY4uOLvqKeHa0GbTUQp-52" value="createComparisonFunction" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="iiY4uOLvqKeHa0GbTUQp-50">
+          <mxGeometry x="20" y="60" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="iiY4uOLvqKeHa0GbTUQp-54" value="result" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="iiY4uOLvqKeHa0GbTUQp-50">
+          <mxGeometry x="26" y="94" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="iiY4uOLvqKeHa0GbTUQp-51" value="" style="endArrow=none;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="iiY4uOLvqKeHa0GbTUQp-50" target="iiY4uOLvqKeHa0GbTUQp-50">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="596" y="250" as="sourcePoint" />
+            <mxPoint x="646" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iiY4uOLvqKeHa0GbTUQp-53" value="" style="endArrow=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="iiY4uOLvqKeHa0GbTUQp-50">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="596" y="250" as="sourcePoint" />
+            <mxPoint x="640" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iiY4uOLvqKeHa0GbTUQp-57" value="undefined" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="654" y="234" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="iiY4uOLvqKeHa0GbTUQp-58" value="createComparisonFunction()&#xa;函数的执行上下文" style="swimlane;startSize=50;" vertex="1" parent="1">
+          <mxGeometry x="40" y="215" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="iiY4uOLvqKeHa0GbTUQp-59" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="139" y="305" as="sourcePoint" />
+            <mxPoint x="139" y="266" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iiY4uOLvqKeHa0GbTUQp-62" value="(作用域链)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="54" y="275" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="iiY4uOLvqKeHa0GbTUQp-63" value="Container" style="swimlane;startSize=60;" vertex="1" parent="1">
+          <mxGeometry x="280" y="340" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="iiY4uOLvqKeHa0GbTUQp-65" value="" style="endArrow=none;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="iiY4uOLvqKeHa0GbTUQp-63" target="iiY4uOLvqKeHa0GbTUQp-63">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="400" as="sourcePoint" />
+            <mxPoint x="420" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
